@@ -120,5 +120,7 @@ User
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
 |!website | | links to the room's website (if set in the settings) |
-|!adblock | | Links to Chrome's AdBlock Extension |
+|!adblock | | links to Chrome's AdBlock Extension |
 |!youtube | | links to the room's youtube page (if set in the settings) |
+|!woof | | links to a random puppy gif |
+|!hi | | gives a friendly hello! |
