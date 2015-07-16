@@ -2961,8 +2961,8 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (typeof basicBot.settings.rulesLink === "string")
-                            API.sendChat("TrilonBot commands » http://tinyurl.com/TrilonBotCommands");
-                            //return API.sendChat(subChat(basicBot.chat.roomrules, {link: basicBot.settings.rulesLink}));
+                            //API.sendChat("TrilonBot commands » http://tinyurl.com/TrilonBotCommands");
+                            return API.sendChat(subChat(basicBot.chat.roomrules, {link: basicBot.settings.rulesLink}));
                     }
                 }
             },
