@@ -2297,7 +2297,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        var link = "(Updated link coming soon)";
+                        var link = "http://tinyurl.com/TrilonBotCommands";
                         API.sendChat(subChat(basicBot.chat.starterhelp, {link: link}));
                     }
                 }
